@@ -7,20 +7,34 @@
   <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Fylo</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
   <!-- tags estruturais: nav, header -->
   <nav class="menu">
     <img src="./images/logo.svg" alt="Logo da empresa Fylo nas cores Bright Blue e Black">
-    <ul>
-      <li>Features</li>
-      <li>Team</li>
-      <li>Sign in</li>
+    <ul class="menu-items">
+      <li><a href="" target="_blank">Features</a></li>
+      <li><a href="" target="_blank">Team</a></li>
+      <li><a href="" target="_blank">Sign in</a></li>
     </ul>
   </nav>
-  <header></header>
+  <header class="header">
+    <div class="header-describe">
+      <h1>All your files in one secure location, accessible anywhere.</h1>
+      <p>Fylo stores your most important files in one secure location.
+        Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+      <span class="header-submit">
+        <input id="submit-input" type="text" placeholder="Enter your e-mail...">
+        <button id="submit-button">Get Started</button>
+      </span>
+
+    </div>
+    <img src="./images/illustration-1.svg">
+
+  </header>
 </body>
 
 </html>
